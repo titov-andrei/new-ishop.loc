@@ -1,1 +1,5 @@
-<h1>321321321</h1>
+<?php
+
+require_once dirname(__DIR__) . '/config/init.php';
+
+echo 'test';
