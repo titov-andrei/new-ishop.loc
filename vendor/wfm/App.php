@@ -9,6 +9,7 @@ class App
   public function __construct()
   {
     self::$app = Registry::getInstance();
+    $this->getParams();
   }
 
   protected function getParams()
