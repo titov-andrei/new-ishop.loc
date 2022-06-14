@@ -18,4 +18,9 @@ class Regidtry
     return self::$properties[$name] ?? null;
   }
 
+  public function getProperties(): array
+  {
+    return self::$properties;
+  }
+
 }
