@@ -10,4 +10,10 @@ class App
   {
     self::$app = Registry::getInstance();
   }
+
+  protected function getParams()
+  {
+
+  }
+  
 }
