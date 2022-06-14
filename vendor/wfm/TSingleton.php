@@ -4,5 +4,15 @@ namespace wfm;
 
 trait TSingleton
 {
-  private static $instance = null;
+  private static ?self $instance = null;
+
+  private function __constructor()
+  {
+
+  }
+
+  public static function getInstance(): static
+  {
+    return static::$instance ?? static::$instance = new static();
+  }
 }
