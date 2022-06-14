@@ -2,7 +2,7 @@
 
 namespace wfm;
 
-class Regidtry
+class Registry
 {
   use TSingleton;
 
